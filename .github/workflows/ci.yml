@@ -1,0 +1,8 @@
+on:
+  pull_request_target:
+
+jobs:
+  testfoo:
+    steps:
+    - run: |
+        echo The action was run
