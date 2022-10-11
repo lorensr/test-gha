@@ -1,4 +1,5 @@
 on:
+  # runs when a pull request is opened or reopened or when the head branch of the pull request is updated
   pull_request_target:
 
 jobs:
