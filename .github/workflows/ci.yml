@@ -3,6 +3,9 @@ on:
 
 jobs:
   testfoo:
+    runs-on: ubuntu-latest
     steps:
     - run: |
         echo The action was run
+
+
